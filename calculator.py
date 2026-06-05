@@ -8,6 +8,10 @@ def subtract(a, b):
     """두 수를 뺀다."""
     return a - b
  
+def multiply(a, b):
+    """두 수를 곱한다."""
+    return a * b
+
  
 if __name__ == "__main__":
     print("2 + 3 =", add(2, 3))
